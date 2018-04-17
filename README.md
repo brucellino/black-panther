@@ -16,4 +16,38 @@ This is done by consuming the repository's [community](https://developer.github.
 In order to use this profile, you need two environment variables to be set: 
 
   - `GITHUB_REPO`: GitHub repository you want to test _e.g._ `EGI-Foundation/ansible-style-guide`
-  - [Personal API Token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
+  - `GITHUB_TOKEN`: [Personal API Token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
+  - [Ruby](https://www.ruby-lang.org/en/downloads/) and `bundler` 
+  - The Gems - `bundle install`
+
+Once your environment is set up, you can run the profile : 
+
+```bash
+inspec exec .
+WARN: Unresolved specs during Gem::Specification.reset:
+      net-ssh (< 5.0, >= 2.6.5, >= 2.9)
+      ffi (>= 1.0.1)
+      multi_json (~> 1.10)
+      http-cookie (~> 1.0.0)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+
+Profile: Profile for GitHub Community Health (Black Panther)
+Version: 0.1.0
+Target:  local://
+
+  ✔  Power to the People: Black Panther ✊🏿
+     ✔  JSON black-panther.json health_percentage should be > 75
+     ✔  JSON black-panther.json ["documentation"] should be
+     ✔  JSON black-panther.json ["files", "contributing"] should be
+     ✔  JSON black-panther.json ["files", "readme"] should be
+     ✔  JSON black-panther.json ["files", "pull_request_template"] should be
+  ✔  I fought the law, but the law won: Wynona Earp  👮 ‍♀️
+     ✔  JSON black-panther.json ["files", "code_of_conduct"] should be
+     ✔  JSON black-panther.json ["files", "license", "key"] should match ".*pache.*"
+     ✔  JSON black-panther.json ["files", "license", "spdx_id"] should cmp == "Apache-2.0"
+
+
+Profile Summary: 2 successful controls, 0 control failures, 0 controls skipped
+Test Summary: 8 successful, 0 failures, 0 skipped
+```
