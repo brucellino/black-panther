@@ -1,3 +1,4 @@
-# Example InSpec Profile
+[![Build Status](https://travis-ci.org/brucellino/black-panther.svg?branch=master)](https://travis-ci.org/brucellino/black-panther)
+# Black Panther ✊🏿 Profile
 
-This example shows the implementation of an InSpec profile.
+An InSpec profile for testing the community health of GitHub repositories.
