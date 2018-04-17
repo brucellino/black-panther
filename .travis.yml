@@ -14,6 +14,7 @@ install:
 before_script:
   - rubocop
 script:
+  - inspec check .
   - inspec exec .
 before_cache:
 after_failure:

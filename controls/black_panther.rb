@@ -54,6 +54,7 @@ end
 control 'I fought the law, but the law won' do
   impact 0.75
   title 'Wynona Earp  👮 ‍♀️'
+  desc 'Ensure that there are rules in this wilderness'
   describe json('black-panther.json') do
     its(['files', 'code_of_conduct']) { should be }
     its(['files', 'license', 'key']) { should match '.*pache.*' }
