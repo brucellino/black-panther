@@ -1,4 +1,7 @@
-[![Build Status](https://travis-ci.org/brucellino/black-panther.svg?branch=master)](https://travis-ci.org/brucellino/black-panther) [![Dependency Status](https://gemnasium.com/badges/github.com/brucellino/black-panther.svg)](https://gemnasium.com/github.com/brucellino/black-panther)
+[![Build Status](https://travis-ci.org/brucellino/black-panther.svg?branch=master)](https://travis-ci.org/brucellino/black-panther) [![Dependency Status](https://gemnasium.com/badges/github.com/brucellino/black-panther.svg)](https://gemnasium.com/github.com/brucellino/black-panther) [![Maintainability](https://api.codeclimate.com/v1/badges/0b36b9c680064fbab10f/maintainability)](https://codeclimate.com/github/brucellino/black-panther/maintainability) 
+[![DOI](https://zenodo.org/badge/129847892.svg)](https://zenodo.org/badge/latestdoi/129847892)
+
+
 # Black Panther ✊🏿 Profile
 
 An [InSpec profile](https://www.chef.io/inspec/) for testing the community health of GitHub repositories.
@@ -72,3 +75,9 @@ depends:
 - name: supermarket-profile
   supermarket: brucellino/black-panther
 ```
+
+# Citing
+
+If you use this for any kind of academic purpose, please cite as:
+
+> Bruce Becker. (2018, April 17). brucellino/black-panther: Community Health  Compliance Profile for GitHub repos (Version v1.0.1). Zenodo. http://doi.org/10.5281/zenodo.1219644
