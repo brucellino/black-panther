@@ -1,0 +1,8 @@
+name: Black Panther
+title: "Profile for GitHub Community Health"
+maintainer: Bruce Becker
+copyright: EGI Foundation
+copyright_email: operations@egi.eu
+license: Apache-2.0
+summary: An InSpec Compliance Profile for checking the community health of github repos
+version: 0.1.0
