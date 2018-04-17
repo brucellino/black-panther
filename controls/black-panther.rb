@@ -50,7 +50,7 @@ control 'I fought the law, but the law won' do
   title 'Wynona Earp  👮 ‍♀️'
   describe json('black-panther.json') do
     its(['files','code_of_conduct']) { should be }
-    its(['files','license','key']) { should include 'pache' }
+    its(['files','license','key']) { should match  '.*pache.*' }
     its(['files' , 'license','spdx_id']) { should cmp 'Apache-2.0' }
   end
 end
