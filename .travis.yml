@@ -15,10 +15,10 @@ before_script:
   - rubocop
 script:
   - inspec check .
-  - inspec exec .
 before_cache:
 after_failure:
 before_deploy:
 deploy:
 after_deploy:
 after_script:
+  - inspec exec .
