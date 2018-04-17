@@ -51,3 +51,24 @@ Target:  local://
 Profile Summary: 2 successful controls, 0 control failures, 0 controls skipped
 Test Summary: 8 successful, 0 failures, 0 skipped
 ```
+
+# Find it in the supermarket
+
+This is an Inspec profile registered in the Chef Supermarket.
+
+```bash 
+inspec supermarket info brucellino/black-panther
+name:   black-panther
+owner:  brucellino
+url:    https://github.com/brucellino/black-panther
+
+description:   A GitHub community health profile compliance check
+```
+
+You can add it to your compliance profile by add a `depends` section to your `inspec.yml` :
+
+```
+depends:
+- name: supermarket-profile
+  supermarket: brucellino/black-panther
+```
