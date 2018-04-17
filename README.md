@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/brucellino/black-panther.svg?branch=master)] (https://travis-ci.org/brucellino/black-panther) [![Dependency Status](https://gemnasium.com/badges/github.com/brucellino/black-panther.svg)](https://gemnasium.com/github.com/brucellino/black-panther)
+[![Build Status](https://travis-ci.org/brucellino/black-panther.svg?branch=master)](https://travis-ci.org/brucellino/black-panther) [![Dependency Status](https://gemnasium.com/badges/github.com/brucellino/black-panther.svg)](https://gemnasium.com/github.com/brucellino/black-panther)
 # Black Panther ✊🏿 Profile
 
 An [InSpec profile](https://www.chef.io/inspec/) for testing the community health of GitHub repositories.
