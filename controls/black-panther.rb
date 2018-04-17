@@ -23,7 +23,7 @@ options = {
     "User-Agent" => "httparty"
   }
 }
-url = "https://api.github.com/repos/EGI-Foundation/#{repo}/community/profile"
+url = "https://api.github.com/repos/#{repo}/community/profile"
 black_panther = HTTParty.get(url, options)
 File.open('black-panther.json','w') do |f|
   f.write(black_panther)
