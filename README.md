@@ -7,6 +7,7 @@
 An [InSpec profile](https://www.chef.io/inspec/) for testing the community health of GitHub repositories.
 It uses the [GitHub v3 API](https://developer.github.com/v3/)
 
+For more information, please see the [documentation](docs/README.md)
 ## Community Health
 
 [GitHub](htps://github.com) measures community health in terms of the indicators of community-friendly content of a repository, building on the [Open Source Guide](https://opensource.guide/building-community/).
