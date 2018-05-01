@@ -64,10 +64,3 @@ control 'I fought the law, but the law won' do
     its(['files', 'license', 'spdx_id']) { should cmp 'Apache-2.0' }
   end
 end
-
-control 'Who watchers the watchmen ?' do
-  impact 0.5
-  title 'Make sure that there are reviewers'
-  desc 'Every repo should have a protected master branch and a set of reviewers
-  who can do code review'
-end

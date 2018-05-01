@@ -47,3 +47,35 @@ this profile : in order to access that part of the v3API, a special application 
 is needed : `application/vnd.github.black-panther-preview+json`
 
 ## What  do we test for
+
+This profile is meant as a _reminder_ to create some documents to guide community contributions.
+We only test for the _existence_ of these documents, not the content itself.
+
+The tests are written as a series of assertions, using the Inspec DSL and test the existence of:
+
+- a README
+- a file describing how to contribute
+- Templates for Pull Requests and Issues
+- License statement
+
+These are used by the GitHub Community Health profile to build up a quantitative
+estimate of how welcoming the repository is to outside contributors.
+This profile aims simply to reproduce these tests and report to repo maintainers.
+It should correspond exactly to the "community insights" part of the repository on
+the GitHub web interface.
+
+## What this profile does not test for
+
+Supporting documentation is one of many metrics one can measure to determine the
+health of an open-source community.
+One may imagine an extensive series of tests, following the work cited above in [community guidelines](#community-guidelines).
+We could check things like:
+
+ - is continuous integration done ?
+ - is there a protected branch for which code review is required prior to merging ?
+ - is there a team of code reviewers?
+ - is there sufficient activity in this repository to consider it "alive" ?
+
+and many more.
+We do not extend _this_ profile past what is done by the [Community Profile](https://developer.github.com/v3/repos/community/) as defined by GitHub for the
+simple reason that there are other API endpoints to be used for extracting that information.

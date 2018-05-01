@@ -56,6 +56,7 @@ Profile Summary: 2 successful controls, 0 control failures, 0 controls skipped
 Test Summary: 8 successful, 0 failures, 0 skipped
 ```
 
+You can add this to your CI pipeline - see the accompanying `.travis.yml`
 # Find it in the supermarket
 
 This is an Inspec profile registered in the Chef Supermarket.
