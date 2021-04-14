@@ -9,7 +9,7 @@ gem 'httparty', '~> 0.16.2'
 gem 'awesome_print', '~> 1.8'
 
 # Added at 2018-04-17 07:29:21 +0200 by becker:
-gem 'json', '~> 2.1'
+gem 'json', '~> 2.3', '>= 2.3.0'
 
 # Added at 2018-04-17 08:31:16 +0200 by becker:
 gem 'inspec', '2.1.68'
