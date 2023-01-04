@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 # Added at 2018-04-17 07:28:47 +0200 by becker:
-gem 'httparty', '~> 0.16.2'
+gem 'httparty', '~> 0.21.0'
 
 # Added at 2018-04-17 07:29:12 +0200 by becker:
 gem 'awesome_print', '~> 1.8'
