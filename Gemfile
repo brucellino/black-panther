@@ -12,7 +12,7 @@ gem 'awesome_print', '~> 1.8'
 gem 'json', '~> 2.3', '>= 2.3.0'
 
 # Added at 2018-04-17 08:31:16 +0200 by becker:
-gem 'inspec', '2.1.68'
+gem 'inspec', '2.3.28'
 
 # Added at 2018-04-17 14:48:01 +0200 by becker:
 gem 'rubocop', '~> 0.93.0'
