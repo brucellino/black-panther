@@ -15,4 +15,4 @@ gem 'json', '~> 2.3', '>= 2.3.0'
 gem 'inspec', '2.1.68'
 
 # Added at 2018-04-17 14:48:01 +0200 by becker:
-gem 'rubocop', '~> 0.55.0'
+gem 'rubocop', '~> 0.93.0'
